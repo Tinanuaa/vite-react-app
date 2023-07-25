@@ -35,8 +35,8 @@ export default defineConfig({
     }),
     viteStaticCopy({
       targets: [
-        { src: 'node_modules/itk-vtk-viewer/dist/itk/web-workers/min-bundles/pipeline.worker.js', dest: './' },
-        { src: 'node_modules/itk-vtk-viewer/dist/itk', dest: './' },
+        { src: 'node_modules/itk-vtk-viewer/dist/itk/web-workers/min-bundles/pipeline.worker.js', dest: './src' },
+        { src: 'node_modules/itk-vtk-viewer/dist/itk', dest: './src' },
       ],
     }),
   ],

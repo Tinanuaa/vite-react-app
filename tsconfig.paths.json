@@ -2,7 +2,7 @@
     "compilerOptions": {
       "paths": {
  
-        "../itkConfig.js": ["../node_modules/itk-vtk-viewer/src/itkConfig.js"],
+        "../itkConfig.js": ["./node_modules/itk-vtk-viewer/src/itkConfig.js"],
       }
     }
   }

@@ -1,1 +1,0 @@
-declare module 'itk-vtk-viewer/src/createViewer'
